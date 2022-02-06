@@ -114,16 +114,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="demo-video.html">
-                        <span class="nav-link-icon d-md-none d-lg-inline-block">
-                            <i class="fas fa-video"></i>
-                        </span>
-                        <span class="nav-link-title">
-                            Demo Video
-                        </span>
-                    </a>
-                </li>
+                
             </ul>
         </div>
     </div>
@@ -174,10 +165,13 @@
     How to Configure Email Notifications?
 </h3>
 <p class="text-h3">
-    Easyfieds sends out email notifications when a user registers new account, tries forget password functionality and to the admin user when a new order has been placed. We used Twilio SendGrid API for emails so you need to add SendGrid API Key in Configurations for these emails to work.
+    Easyfieds sends out email notifications when a user registers new account, tries forget password functionality and on other related occasions. We used ElasticEmail API for emails so you need to only add ElasticEmail API Key in Configurations for these emails to work.
+</p>
+<p>
+    <iframe width="100%" height="550" src="https://www.youtube.com/embed/NIkgcfrs5-w?start=348&amp;end=688" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 <div class="alert alert-warning" role="alert">
-    You should also change the value of <code>SendGridFromEmailAddress</code> and <code>SendGridFromEmailAddressName</code>. Your end users will see emails from this email address in their inboxes.
+    You should also change the value of <code>ElasticEmailFromEmailAddress</code> and <code>ElasticFromEmailAddressName</code>. Your end users will see emails from this email address in their inboxes.
 </div>
                 </div>
             </div>
@@ -187,7 +181,7 @@
         <div class="d-flex align-items-center justify-content-between">
             <div>
                 <i title="Copyrights" class="fas fa-copyright dont-transform text-warning"></i>
-                <a href="index.html">Easyfieds Documentation</a> 2021. All rights reserved.
+                <a href="index.html">Easyfieds Documentation</a> 2022. All rights reserved.
             </div>
             <div>
                 Developed <i class="fas fa-laptop-code text-success" title="love"></i> by <a href="http://www.sajjadgul.com/" target="_blank">Sajjad Arif Gul</a>.
